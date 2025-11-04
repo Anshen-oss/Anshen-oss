@@ -1,394 +1,292 @@
-# P. Louisin
-
-> Webmaster en Reconversion | Backend Developer in Training | Paris 🇫🇷
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/p-louisin/)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter)](https://x.com/AnshenLouisin)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail)](mailto:anshen99@gmail.com)
-
----
-
-## 🎯 Profil de Reconversion
-
-**Background :** Webmaster avec plusieurs années d'expérience en gestion de sites web et infrastructure
-
-**Transition :** Reconversion vers le développement backend moderne (depuis 2024)
-
-**Approche :** Apprentissage par projets concrets + collaboration IA (Claude) pour best practices
-
-**Objectif :** Backend Developer spécialisé NestJS, GraphQL et architectures modernes
-
----
-
-## 📊 Parcours de Compétences
-
-### Expérience Webmaster (Acquis)
-
-| Domaine | Compétences | Niveau |
-|---------|-------------|--------|
-| **Administration Système** | Linux, Apache, Nginx | ⭐⭐⭐⭐⭐ |
-| **CMS** | WordPress, Drupal | ⭐⭐⭐⭐⭐ |
-| **Web Classique** | HTML, CSS, JavaScript | ⭐⭐⭐⭐ |
-| **SEO** | Référencement, Analytics | ⭐⭐⭐⭐ |
-| **Déploiement** | FTP, SSH, cPanel | ⭐⭐⭐⭐⭐ |
-
-### Backend Moderne (En Apprentissage)
-
-| Technologie | Usage | Niveau Actuel | Projets |
-|-------------|-------|---------------|---------|
-| **NestJS** | Framework principal | ⭐⭐⭐⭐ | 2 projets |
-| **TypeScript** | Langage backend | ⭐⭐⭐⭐ | Quotidien |
-| **MongoDB** | Base NoSQL | ⭐⭐⭐⭐ | 2 projets |
-| **GraphQL** | API moderne | ⭐⭐⭐ | 1 projet |
-| **JWT/Passport** | Authentification | ⭐⭐⭐⭐ | 1 projet |
-| **Docker** | Conteneurisation | ⭐⭐⭐ | Apprentissage |
-| **Jest** | Testing | ⭐⭐ | En cours |
-
-### Compétences Transversales
-
-| Compétence | Niveau | Notes |
-|------------|--------|-------|
-| **Git/GitHub** | ⭐⭐⭐⭐ | Workflows, branches, PR |
-| **Documentation** | ⭐⭐⭐⭐⭐ | README, comments, guides |
-| **Architecture** | ⭐⭐⭐ | Patterns, SOLID (en cours) |
-| **Problem Solving** | ⭐⭐⭐⭐ | Debug, recherche |
-| **Auto-formation** | ⭐⭐⭐⭐⭐ | Docs, tutos, AI guidance |
-
----
-
-## 💼 Projets de Reconversion
-
-### 🔐 Système d'Authentification JWT
-
-**Repository :** [jwt-auth-with-mongo-db-nest-js](https://github.com/Anshen-oss/jwt-auth-with-mongo-db-nest-js)
-
-**Contexte :** Premier projet backend sérieux pour comprendre l'authentification moderne
-
-**Stack Technique :**
-- **Backend :** NestJS ^11.0
-- **Database :** MongoDB + Mongoose
-- **Auth :** Passport + JWT + Bcrypt
-- **Validation :** Class-validator, Class-transformer
-- **Language :** TypeScript ^5.7
-
-**Architecture Implémentée :**
-```
-Client Request
-    ↓
-Guards (JWT/Local)
-    ↓
-Strategy (Passport)
-    ↓
-Service (Business Logic)
-    ↓
-Repository (Mongoose)
-    ↓
-MongoDB
-```
-
-**Fonctionnalités Développées :**
-- ✅ Inscription utilisateur avec hash bcrypt
-- ✅ Connexion avec génération JWT
-- ✅ Protection routes avec Guards
-- ✅ Système de rôles (USER, ADMIN)
-- ✅ Validation DTOs
-- ✅ Gestion erreurs centralisée
-
-**Compétences Acquises :**
-- Architecture modulaire NestJS
-- Patterns : Dependency Injection, Repository
-- Sécurité : Hash, JWT, Guards
-- TypeScript avancé (decorators, generics)
-
-**Durée :** 2-3 semaines | **Statut :** ✅ Fonctionnel & documenté
-
----
-
-### 📚 API GraphQL Books Management
-
-**Repository :** [Nestjs-graphql-mongodb](https://github.com/Anshen-oss/Nestjs-graphql-mongodb)
-
-**Contexte :** Exploration de GraphQL comme alternative à REST
-
-**Stack Technique :**
-- **Backend :** NestJS ^11.0
-- **API :** GraphQL ^16.12, Apollo Server ^4.0
-- **Database :** MongoDB ^8.19 + Mongoose
-- **Language :** TypeScript ^5.7
-- **Validation :** Class-validator
-
-**Architecture Implémentée :**
-```
-GraphQL Request
-    ↓
-Resolver (Controller)
-    ↓
-Service (Business Logic)
-    ↓
-Mongoose Model
-    ↓
-MongoDB
-```
-
-**API Design :**
-```graphql
-# Queries
-getAllBooks: [Book!]!
-getBook(id: String!): Book!
-
-# Mutations
-createBook(input: CreateBookInput!): Book!
-updateBook(input: UpdateBookInput!): Book!
-deleteBook(id: String!): Boolean!
-```
-
-**Fonctionnalités Développées :**
-- ✅ CRUD complet (Queries & Mutations)
-- ✅ Code-first approach (auto schema generation)
-- ✅ GraphQL Playground intégré
-- ✅ DTOs avec validation
-- ✅ Error handling
-- ✅ Documentation complète
-
-**Compétences Acquises :**
-- Différences GraphQL vs REST
-- Resolvers et Field Resolvers
-- Apollo Server configuration
-- Schema-first vs Code-first
-- Optimisation requêtes
-
-**Durée :** 1-2 semaines | **Statut :** ✅ Fonctionnel avec playground
-
----
-
-## 📈 Progression Technique
-
-### Timeline de Reconversion
-
-```
-2024 Q4 - FONDATIONS ✅
-├─ Apprentissage NestJS basics
-├─ Projet JWT Authentication
-├─ Projet GraphQL Books API
-└─ Maîtrise TypeScript
-
-2024-2025 Q1 - APPROFONDISSEMENT 🔄
-├─ Relations & DataLoader (GraphQL)
-├─ Pagination & filtres avancés
-├─ Tests (Jest, e2e)
-└─ 2-3 projets portfolio
-
-2025 Q2 - PROFESSIONNALISATION 📝
-├─ Microservices architecture
-├─ Cloud deployment (AWS/GCP)
-├─ CI/CD pipelines
-└─ Recherche premier poste
-
-2025 Q3+ - OBJECTIF 🎯
-└─ Backend Developer @ Tech Company
-```
-
-### Métriques d'Apprentissage
-
-| Métrique | Valeur | Notes |
-|----------|--------|-------|
-| **Projets complétés** | 2 | JWT Auth + GraphQL API |
-| **Lignes de code** | ~5000+ | TypeScript/NestJS |
-| **Technologies maîtrisées** | 6 | NestJS, TS, MongoDB, GraphQL, JWT, Git |
-| **Documentation créée** | 100% | Tous projets documentés |
-| **Heures d'apprentissage** | 200+ | Tutos, docs, pratique |
-| **Collaboration AI** | Quotidienne | Claude pour guidance |
-
----
-
-## 🎓 Méthodologie d'Apprentissage
-
-### Approche Structurée
-
-```typescript
-class LearningMethod {
-  private resources = [
-    "Documentation officielle (priorité)",
-    "YouTube tutorials (anglais)",
-    "Projets concrets guidés",
-    "Claude AI pour best practices",
-    "Communauté (Stack Overflow, Discord)"
-  ];
-
-  async learn(technology: string): Promise<Skill> {
-    // 1. Comprendre les concepts
-    await this.readDocumentation(technology);
-    
-    // 2. Suivre un tutoriel pratique
-    await this.watchTutorial(technology);
-    
-    // 3. Construire un projet
-    const project = await this.buildProject(technology);
-    
-    // 4. Valider avec AI mentor
-    await this.validateWithClaude(project);
-    
-    // 5. Documenter et partager
-    await this.documentAndShare(project);
-    
-    return new Skill(technology, "learned");
-  }
-}
-```
-
-### Sources d'Apprentissage
-
-- 📖 **Documentation officielle** : NestJS docs, GraphQL.org
-- 🎥 **YouTube** : Tutoriels techniques en anglais
-- 🤖 **Claude AI** : Guidance, code reviews, best practices
-- 💻 **Practice** : Projets concrets, pas que théorie
-- 🌐 **Communauté** : GitHub, Stack Overflow
-
----
-
-## 🌍 Langues & Communication
-
-| Langue | Niveau | Usage Technique |
-|--------|--------|-----------------|
-| **Français** 🇫🇷 | Natif | Communication, docs |
-| **Créole** 🇭🇹 | Natif | - |
-| **Anglais** 🇬🇧 | Intermédiaire+ | Lecture docs, vidéos |
-
-**Note :** Consommation quotidienne de contenu technique en anglais (documentation, tutoriels YouTube, articles). Bonne compréhension écrite et orale.
-
----
-
-## 🎯 Objectifs de Reconversion
-
-### Court Terme (3-6 mois)
-
-- [ ] Maîtriser relations GraphQL avec DataLoader
-- [ ] Implémenter pagination et filtres avancés
-- [ ] Créer 3-4 projets portfolio solides
-- [ ] Contribuer à l'open-source
-- [ ] Améliorer couverture tests
-
-### Moyen Terme (6-12 mois)
-
-- [ ] Apprendre microservices architecture
-- [ ] Explorer cloud platforms (AWS/GCP)
-- [ ] Maîtriser Docker & CI/CD
-- [ ] **Objectif principal :** Premier poste Backend Developer
-
-### Long Terme (1-2 ans)
-
-- [ ] Backend Developer confirmé
-- [ ] Contribuer à projets open-source majeurs
-- [ ] Partager connaissances (blog, tutoriels)
-- [ ] Continuer veille technologique
-
----
-
-## 💪 Atouts de Reconversion
-
-### Ce Qui Me Différencie
-
-| Atout | Détail |
-|-------|--------|
-| **🎯 Expérience Terrain** | Années en tant que Webmaster |
-| **📚 Apprenant Structuré** | Méthodologie claire, projets concrets |
-| **💡 Motivation Prouvée** | Reconversion assumée avec résultats |
-| **📖 Documentation** | Code propre, README complets |
-| **🤖 AI-Assisted Learning** | Utilisation Claude pour best practices |
-| **🌱 Growth Mindset** | Humble mais déterminé |
-
-### Proposition de Valeur
-
-```typescript
-interface MyValue {
-  experience: "Webmaster confirmé qui comprend le cycle projet complet";
-  technical: "Maîtrise progressive stack moderne (NestJS, GraphQL, MongoDB)";
-  learning: "Apprentissage rapide et structuré avec projets à l'appui";
-  mindset: "Junior en backend mais pas débutant en tech";
-  motivation: "Reconversion choisie avec investissement temps/énergie massif";
-}
-```
-
----
-
-## 📊 Activité GitHub
-
 <div align="center">
 
-![Anshen's GitHub stats](https://github-readme-stats.vercel.app/api?username=Anshen-oss&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)
+# 🎯 Hey! Je suis Anshen 👋
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Anshen-oss&layout=compact&theme=github_dark&hide_border=true&langs_count=8)
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=6366F1&center=true&vCenter=true&width=940&lines=Webmaster+%F0%9F%92%BC;Backend+Developer+in+Training+%F0%9F%9A%80;NestJS+%26+GraphQL+Learner+%F0%9F%94%A5;Career+Transition+Journey+%E2%9C%A8" alt="Typing SVG" />
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Anshen-oss&theme=github-dark-blue&hide_border=true)
+### 🌟 De Webmaster à Backend Developer 🌟
+
+<p>
+  <a href="https://www.linkedin.com/in/p-louisin/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://x.com/AnshenLouisin">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+  <a href="mailto:anshen99@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
+
+📍 **Paris, France** 🇫🇷
 
 </div>
 
 ---
 
-## 🎵 Équilibre Vie/Code
+## 🎨 Mon Histoire
 
 ```javascript
-const workLifeBalance = {
-  coding: {
-    focus: "Backend development",
-    tools: ["NestJS", "GraphQL", "MongoDB"],
-    hours: "Quotidien, avec discipline"
+const anshenStory = {
+    background: {
+        role: "Webmaster 💼",
+        experience: "Plusieurs années",
+        skills: ["Gestion sites", "Serveurs", "CMS", "SEO"]
+    },
+    transition: {
+        decision: "2023 - Reconversion vers le backend moderne 🚀",
+        why: "Passion pour l'architecture et les APIs",
+        approach: "Apprentissage par la pratique + projets concrets"
+    },
+    current: {
+        focus: "Backend Development",
+        stack: ["NestJS 🦅", "GraphQL 🔗", "MongoDB 🗄️", "TypeScript 💙"],
+        method: "Learn by doing + Claude AI guidance 🤖"
+    },
+    futureGoal: "Backend Developer @ Tech Company 🎯"
+};
+```
+
+---
+
+## 🔥 Mes Projets de Reconversion
+
+<div align="center">
+
+### 🔐 [Système d'Authentification JWT](https://github.com/Anshen-oss/jwt-auth-with-mongo-db-nest-js)
+
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+
+**Mon premier projet backend sérieux !**
+
+✨ Ce que j'ai appris :
+- Architecture modulaire NestJS
+- Sécurité & authentification
+- Guards et stratégies Passport
+- Hash bcrypt & validation
+- Patterns backend modernes
+
+📊 Statut : ✅ Fonctionnel & documenté
+
+---
+
+### 📚 [API GraphQL Books](https://github.com/Anshen-oss/Nestjs-graphql-mongodb)
+
+<img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL"/>
+<img src="https://img.shields.io/badge/Apollo-311C87?style=for-the-badge&logo=apollographql&logoColor=white" alt="Apollo"/>
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS"/>
+<img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" alt="Mongoose"/>
+
+**Découverte de GraphQL comme alternative à REST**
+
+✨ Ce que j'ai appris :
+- GraphQL vs REST
+- Code-first approach
+- Resolvers & Mutations
+- Apollo Server 4
+- Documentation auto-générée
+
+📊 Statut : ✅ Fonctionnel avec playground
+
+</div>
+
+---
+
+## 💻 Ma Stack en Apprentissage
+
+<div align="center">
+
+### 🎯 En Cours de Maîtrise
+
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Apollo](https://img.shields.io/badge/Apollo-311C87?style=for-the-badge&logo=apollographql&logoColor=white)
+![REST](https://img.shields.io/badge/REST-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
+
+### 🛠️ Outils & DevOps
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+### 💼 Compétences Webmaster
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
+
+</div>
+
+---
+
+## 📊 Mon Activité GitHub
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Anshen-oss&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anshen-oss&layout=compact&langs_count=8&theme=radical&hide_border=true"/>
+</div>
+
+<div align="center">
+  
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Anshen-oss&theme=radical&hide_border=true)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🎯 Ma Roadmap de Reconversion
+
+```typescript
+// Mon plan d'apprentissage 2024-2025
+const learningPath = {
+  phase1: { // ✅ COMPLÉTÉ
+    period: "Oct-Nov 2024",
+    achievements: [
+      "✅ Authentification JWT avec NestJS",
+      "✅ API GraphQL avec Apollo",
+      "✅ CRUD complet avec MongoDB",
+      "✅ Best practices & documentation"
+    ]
   },
-  music: {
-    instrument: "Tambours 🥁",
-    styles: ["Nayabingi", "6/8"],
-    benefit: "Rythme et discipline"
+  phase2: { // 🔄 EN COURS
+    period: "Dec 2024 - Mars 2025",
+    goals: [
+      "🔄 Relations & DataLoader (GraphQL)",
+      "🔄 Pagination & filtres avancés",
+      "🔄 Tests unitaires & e2e (Jest)",
+      "🔄 3-4 projets portfolio supplémentaires"
+    ]
   },
-  wellness: {
-    practice: "Yoga 🧘‍♂️",
-    benefit: "Focus mental pour debug"
-  },
-  learning: {
-    source: "YouTube Tech 📺",
-    language: "Anglais technique",
-    frequency: "Quotidien"
+  phase3: { // 📝 PRÉVU
+    period: "Avril - Juin 2025",
+    goals: [
+      "📝 Microservices architecture",
+      "📝 Cloud deployment (AWS/GCP)",
+      "📝 CI/CD pipelines",
+      "📝 Recherche premier poste Backend Dev"
+    ]
   }
 };
 ```
 
 ---
 
-## 📫 Contact & Opportunités
+## 🌍 Langues & Communication
 
-**Intéressé par mon profil de reconversion ?**
+<table>
+  <tr>
+    <td align="center">🇫🇷</td>
+    <td><b>Français</b></td>
+    <td>Natif</td>
+    <td>████████████ 100%</td>
+  </tr>
+  <tr>
+    <td align="center">🇭🇹</td>
+    <td><b>Créole</b></td>
+    <td>Natif</td>
+    <td>████████████ 100%</td>
+  </tr>
+  <tr>
+    <td align="center">🇬🇧</td>
+    <td><b>English</b></td>
+    <td>Technique</td>
+    <td>████████░░░░ 70%</td>
+  </tr>
+</table>
 
-Je suis **activement à l'écoute d'opportunités** en tant que :
-- Backend Developer Junior
-- Développeur NestJS/Node.js
-- Alternance/Stage Backend
-- Projets freelance backend
+---
 
-**Mes critères :**
-- Équipe tech bienveillante et pédagogue
-- Stack moderne (NestJS, GraphQL, TypeScript)
-- Possibilité de continuer à apprendre
-- Projets challengeants
+## 🎵 En Dehors du Code...
 
-| Canal | Lien | Usage |
-|-------|------|-------|
-| **LinkedIn** | [p-louisin](https://www.linkedin.com/in/p-louisin/) | Networking professionnel |
-| **Twitter** | [@AnshenLouisin](https://x.com/AnshenLouisin) | Veille tech & partage |
-| **Email** | [anshen99@gmail.com](mailto:anshen99@gmail.com) | Contact direct |
+<div align="center">
+
+### 🥁 Tambours (Nayabingi, 6/8)
+*Le rythme comme langage universel*
+
+### 🧘‍♂️ Yoga
+*Équilibre et discipline, au code comme dans la vie*
+
+### 📺 Veille Tech Continue
+*YouTube, docs, articles - Toujours en apprentissage !*
+
+### 🤖 Collaboration avec Claude AI
+*Mon mentor IA pour les best practices et l'architecture*
+
+</div>
+
+---
+
+## 💪 Mes Atouts
+
+<div align="center">
+
+| Atout | Description |
+|-------|-------------|
+| 🎯 **Expérience Webmaster** | Compréhension complète du cycle projet web |
+| 📚 **Apprenant Actif** | Projets concrets, pas que de la théorie |
+| 💡 **Reconversion Assumée** | Motivation et détermination à 100% |
+| 📖 **Documentation** | Code propre et bien documenté |
+| 🌱 **Growth Mindset** | Toujours en amélioration continue |
+
+</div>
+
+---
+
+## 🚀 Pourquoi Me Choisir ?
+
+```javascript
+const whyMe = {
+  experience: "Webmaster confirmé qui comprend les enjeux techniques",
+  motivation: "Reconversion choisie avec projets concrets à l'appui",
+  skills: "Maîtrise progressive des technos modernes (NestJS, GraphQL)",
+  learning: "Apprentissage structuré avec mentoring IA (Claude)",
+  mindset: "Humble mais déterminé, junior mais pas débutant",
+  
+  philosophy: "Un développeur qui sait ce qu'il ne sait pas encore 🎯"
+};
+```
+
+---
+
+## 📫 On Discute ?
+
+<div align="center">
+
+**Intéressé par mon parcours de reconversion ?**  
+**Parlons-en autour d'un café (virtuel ou réel) !** ☕
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/p-louisin/)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow_Me-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/AnshenLouisin)
+[![Email](https://img.shields.io/badge/Email-Say_Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anshen99@gmail.com)
+
+</div>
 
 ---
 
 <div align="center">
 
-**"The expert in anything was once a beginner."**
+### 💭 Ma Citation Préférée
 
-*— Helen Hayes*
+*"Il n'est jamais trop tard pour devenir ce que vous auriez pu être."*  
+**— George Eliot**
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=Anshen-oss&style=flat&color=blue)
+![Profile Views](https://komarev.com/ghpvc/?username=Anshen-oss&color=blueviolet&style=for-the-badge)
 
-**⭐ Webmaster → Backend Dev | En reconversion depuis 2024**
+**⭐ En reconversion depuis 2024 | Webmaster → Backend Dev**
 
-*Code avec passion, apprend avec humilité*
+*Made with ❤️, ☕ and lots of tutorials*
 
 </div>
