@@ -129,12 +129,12 @@ const anshen = {
 ## 🎯 Current Focus
 
 ```typescript
-// 2024 Goals
+// 2025 Goals
 const goals2024 = {
   learn: [
     "Advanced Microservices Architecture 🏗️",
     "Cloud Platforms (AWS, GCP) ☁️",
-    "Kubernetes & Container Orchestration 🐳"
+    "Docker & Container Orchestration 🐳"
   ],
   build: [
     "Open Source Projects 🌍",
