@@ -29,7 +29,7 @@ J'aime construire des applications backend scalables avec une architecture propr
 **En dehors du code :**
 - 🥁 Joueur de tambours (Nayabingi, 6/8)
 - 🧘 Pratique du yoga
-- 📺 Apprentissage continu via YouTube
+- 📺 Apprentissage continu via YouTube et documentations
 
 ---
 
