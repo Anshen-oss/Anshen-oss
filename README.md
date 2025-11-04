@@ -37,7 +37,7 @@ const anshen = {
         learning: "YouTube tech addict 📺"
     },
     languages: ["Français 🇫🇷", "Créole 🇭🇹", "English 🇬🇧"],
-    currentlyLearning: ["Microservices", "Cloud Architecture", "K8s"],
+    currentlyLearning: ["Microservices", "Cloud Architecture", "Docker"],
     motto: "Code clean, deploy fast, iterate often ⚡"
 };
 ```
