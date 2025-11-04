@@ -114,13 +114,10 @@ const anshen = {
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Anshen-oss&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anshen-oss&layout=compact&langs_count=8&theme=radical&hide_border=true"/>
-</div>
 
-<div align="center">
-  
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Anshen-oss&theme=radical&hide_border=true)](https://git.io/streak-stats)
+![Anshen's GitHub stats](https://github-readme-stats.vercel.app/api?username=Anshen-oss&show_icons=true&theme=tokyonight&hide_border=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anshen-oss&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
 
