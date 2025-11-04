@@ -1,223 +1,104 @@
+# 👋 Salut, moi c'est Anshen !
+
 <div align="center">
 
-# 🎯 Hey there! I'm Anshen 👋
+**Full Stack Developer** | Paris 🇫🇷
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=6366F1&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%F0%9F%9A%80;Backend+Enthusiast+%E2%9A%A1;GraphQL+%26+NestJS+Lover+%F0%9F%94%A5;Clean+Code+Advocate+%E2%9C%A8" alt="Typing SVG" />
+*Passionné par le développement backend moderne et les architectures scalables*
 
-### 🌟 Building scalable APIs & robust architectures 🌟
-
-<p>
-  <a href="https://www.linkedin.com/in/p-louisin/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://x.com/AnshenLouisin">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
-  <a href="mailto:anshen99@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
-
-📍 **Paris, France** 🇫🇷
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/p-louisin/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/AnshenLouisin)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anshen99@gmail.com)
 
 </div>
 
 ---
 
-## 🎨 About Me
+## 🚀 À propos
 
-```javascript
-const anshen = {
-    location: "Paris 🗼",
-    role: "Full Stack Developer 💻",
-    passions: ["GraphQL 🔗", "NestJS 🦅", "Clean Code 📖", "Docker 🐳"],
-    funFacts: {
-        music: "Joueur de tambours 🥁 (Nayabingi, 6/8)",
-        wellness: "Yoga enthusiast 🧘‍♂️",
-        learning: "YouTube tech addict 📺"
-    },
-    languages: ["Français 🇫🇷", "Créole 🇭🇹", "English 🇬🇧"],
-    currentlyLearning: ["Microservices", "Cloud Architecture", "Docker"],
-    motto: "Code clean, deploy fast, iterate often ⚡"
-};
-```
+Développeur spécialisé dans la création d'APIs robustes et performantes avec **NestJS** et **GraphQL**. 
+J'aime construire des applications backend scalables avec une architecture propre et maintenable.
+
+**Ce qui me passionne :**
+- 🎯 GraphQL & REST APIs
+- 🏗️ Architecture backend avec NestJS
+- 🗄️ Bases de données (MongoDB, PostgreSQL)
+- 🐳 Docker & DevOps
+- 📖 Clean Code & Best Practices
+
+**En dehors du code :**
+- 🥁 Joueur de tambours (Nayabingi, 6/8)
+- 🧘 Pratique du yoga
+- 📺 Apprentissage continu via YouTube
 
 ---
 
-## 🔥 Featured Projects
-
-<div align="center">
+## 💼 Projets Récents
 
 ### 🔐 [JWT Authentication System](https://github.com/Anshen-oss/jwt-auth-with-mongo-db-nest-js)
+Système d'authentification complet utilisant JSON Web Tokens (JWT), NestJS et MongoDB.
 
-<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
-<img src="https://img.shields.io/badge/Passport-34E27A?style=for-the-badge&logo=passport&logoColor=white" alt="Passport"/>
-
-**Un système d'authentification complet avec JWT, NestJS et MongoDB**
-
-🎯 Inscription & Connexion • 🔒 Sécurité JWT • 👤 Gestion utilisateurs • 🛡️ Guards & Strategies
+**Stack :** NestJS • MongoDB • Mongoose • Passport • JWT
 
 ---
 
 ### 📚 [GraphQL Books API](https://github.com/Anshen-oss/Nestjs-graphql-mongodb)
+API GraphQL pour la gestion d'une collection de livres avec architecture moderne.
 
-<img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL"/>
-<img src="https://img.shields.io/badge/Apollo-311C87?style=for-the-badge&logo=apollographql&logoColor=white" alt="Apollo"/>
-<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-
-**API GraphQL moderne pour la gestion de livres**
-
-📖 CRUD Complet • 🎮 GraphQL Playground • ✅ Validation • 🏗️ Architecture Modulaire
-
-</div>
+**Stack :** NestJS • GraphQL • Apollo Server • MongoDB • TypeScript
 
 ---
 
-## 💻 Tech Stack
-
-<div align="center">
-
-### Backend
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-
-### Frontend
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-
-### Database
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### API
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![Apollo](https://img.shields.io/badge/Apollo-311C87?style=for-the-badge&logo=apollographql&logoColor=white)
-![REST](https://img.shields.io/badge/REST-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### Tools & DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
-### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Anshen-oss&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anshen-oss&layout=compact&langs_count=8&theme=radical&hide_border=true"/>
-</div>
-
-<div align="center">
-  
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Anshen-oss&theme=radical&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 🎯 Current Focus
+## 🛠️ Technologies
 
 ```typescript
-// 2025 Goals
-const goals2024 = {
-  learn: [
-    "Advanced Microservices Architecture 🏗️",
-    "Cloud Platforms (AWS, GCP) ☁️",
-    "Docker & Container Orchestration 🐳"
-  ],
-  build: [
-    "Open Source Projects 🌍",
-    "Tutorial Series on NestJS & GraphQL 📚",
-    "Personal Developer Blog ✍️"
-  ],
-  improve: [
-    "System Design Skills 🎨",
-    "Testing (Unit, Integration, E2E) 🧪",
-    "Performance Optimization ⚡"
-  ]
-};
+const anshen = {
+  backend: ['NestJS', 'Node.js', 'Express'],
+  frontend: ['Next.js', 'React'],
+  databases: ['MongoDB', 'PostgreSQL'],
+  api: ['GraphQL', 'REST'],
+  tools: ['Docker', 'Git', 'Postman'],
+  languages: ['TypeScript', 'JavaScript'],
+  learning: ['Microservices', 'AWS', 'K8s']
+}
 ```
 
 ---
 
-## 🌍 Languages
-
-<table>
-  <tr>
-    <td align="center">🇫🇷</td>
-    <td><b>Français</b></td>
-    <td>Natif</td>
-    <td>████████████ 100%</td>
-  </tr>
-  <tr>
-    <td align="center">🇭🇹</td>
-    <td><b>Créole</b></td>
-    <td>Natif</td>
-    <td>████████████ 100%</td>
-  </tr>
-  <tr>
-    <td align="center">🇬🇧</td>
-    <td><b>English</b></td>
-    <td>Compréhension</td>
-    <td>████████░░░░ 70%</td>
-  </tr>
-</table>
-
----
-
-## 🎵 When I'm Not Coding...
+## 📊 GitHub Stats
 
 <div align="center">
 
-### 🥁 Tambour Player (Nayabingi, 6/8)
-*Le rythme nourrit l'âme*
+![Anshen's GitHub stats](https://github-readme-stats.vercel.app/api?username=Anshen-oss&show_icons=true&theme=tokyonight&hide_border=true)
 
-### 🧘‍♂️ Yoga Enthusiast
-*Code avec le corps, débogage avec l'esprit*
-
-### 📺 Tech YouTube Addict
-*Apprentissage continu en anglais*
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anshen-oss&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
 
 ---
 
-## 📫 Let's Connect!
+## 🌍 Langues
 
-<div align="center">
+- 🇫🇷 **Français** - Natif
+- 🇭🇹 **Créole** - Natif
+- 🇬🇧 **Anglais** - Bonne compréhension écrite & orale
 
-**Je suis toujours ouvert à de nouvelles opportunités et collaborations !**
+---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/p-louisin/)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow_Me-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/AnshenLouisin)
-[![Email](https://img.shields.io/badge/Email-Say_Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anshen99@gmail.com)
+## 📫 Contact
 
-</div>
+N'hésite pas à me contacter pour collaborer sur des projets ou simplement discuter tech !
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/p-louisin/)
+- 🐦 [Twitter](https://x.com/AnshenLouisin)
+- ✉️ [Email](mailto:anshen99@gmail.com)
 
 ---
 
 <div align="center">
 
-### 💭 Thought of the Day
+*"Clean code is not written by following a set of rules. You don't become a software craftsman by learning a list of what to do and what not to do."*
 
-*"First, solve the problem. Then, write the code."* 
-**— John Johnson**
-
----
-
-![Profile Views](https://komarev.com/ghpvc/?username=Anshen-oss&color=blueviolet&style=for-the-badge)
-
-**⭐ From [Anshen-oss](https://github.com/Anshen-oss) with ❤️ and ☕**
+**- Robert C. Martin**
 
 </div>
