@@ -127,16 +127,16 @@ const anshen = {
 
 ```typescript
 // 2024 Goals
-const goals2024 = {
+const goals2025 = {
   learn: [
     "Advanced Microservices Architecture 🏗️",
     "Cloud Platforms (AWS, GCP) ☁️",
-    "Kubernetes & Container Orchestration 🐳"
+    "Docker & Container Orchestration 🐳"
   ],
   build: [
     "Open Source Projects 🌍",
     "Tutorial Series on NestJS & GraphQL 📚",
-    "Personal Developer Blog ✍️"
+    "Personal Developer Blog & LMS ✍️"
   ],
   improve: [
     "System Design Skills 🎨",
