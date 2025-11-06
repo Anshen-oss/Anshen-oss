@@ -360,7 +360,6 @@ const workLifeBalance = {
 Je suis **activement à l'écoute d'opportunités** en tant que :
 - Backend Developer Junior
 - Développeur NestJS/Node.js
-- Alternance/Stage Backend
 - Projets freelance backend
 
 **Mes critères :**
