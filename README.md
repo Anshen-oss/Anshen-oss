@@ -36,12 +36,12 @@
 
 | Technologie | Usage | Niveau Actuel | Projets |
 |-------------|-------|---------------|---------|
-| **NestJS** | Framework principal | ⭐⭐⭐⭐ | 2 projets |
+| **NestJS** | Framework principal | ⭐⭐⭐⭐ | 3 projets |
 | **TypeScript** | Langage backend | ⭐⭐⭐⭐ | Quotidien |
-| **MongoDB** | Base NoSQL | ⭐⭐⭐⭐ | 2 projets |
-| **GraphQL** | API moderne | ⭐⭐⭐ | 1 projet |
-| **JWT/Passport** | Authentification | ⭐⭐⭐⭐ | 1 projet |
-| **Docker** | Conteneurisation | ⭐⭐⭐ | Apprentissage |
+| **MongoDB** | Base NoSQL | ⭐⭐⭐⭐ | 3 projets |
+| **GraphQL** | API moderne | ⭐⭐⭐⭐ | 2 projets |
+| **JWT/Passport** | Authentification | ⭐⭐⭐⭐ | 2 projets |
+| **Docker** | Conteneurisation | ⭐⭐⭐ | 1 projet |
 | **Jest** | Testing | ⭐⭐ | En cours |
 
 ### Compétences Transversales
@@ -50,13 +50,87 @@
 |------------|--------|-------|
 | **Git/GitHub** | ⭐⭐⭐⭐ | Workflows, branches, PR |
 | **Documentation** | ⭐⭐⭐⭐⭐ | README, comments, guides |
-| **Architecture** | ⭐⭐⭐ | Patterns, SOLID (en cours) |
+| **Architecture** | ⭐⭐⭐⭐ | Patterns, SOLID, RBAC |
 | **Problem Solving** | ⭐⭐⭐⭐ | Debug, recherche |
 | **Auto-formation** | ⭐⭐⭐⭐⭐ | Docs, tutos, AI guidance |
 
 ---
 
 ## 💼 Projets de Reconversion
+
+### 🚀 NestJS GraphQL Auth Starter (Projet Complet)
+
+**Repository :** [nestjs-graphql-auth-starter](https://github.com/Anshen-oss/nestjs-graphql-auth-starter)
+
+**Contexte :** Projet d'apprentissage combinant authentification JWT + GraphQL + système de rôles complet
+
+**Stack Technique :**
+- **Backend :** NestJS ^11.0
+- **API :** GraphQL ^16.12 + Apollo Server ^4.0
+- **Database :** MongoDB ^8.19 + Mongoose
+- **Auth :** Passport-JWT + Bcrypt
+- **Validation :** Class-validator
+- **DevOps :** Docker + Docker Compose
+- **Language :** TypeScript ^5.7
+
+**Architecture Implémentée :**
+```
+GraphQL Request + JWT Token
+    ↓
+GqlAuthGuard (Authentication)
+    ↓
+RolesGuard (Authorization RBAC)
+    ↓
+JwtStrategy (Token Validation)
+    ↓
+Resolver (GraphQL Controller)
+    ↓
+Service (Business Logic)
+    ↓
+Repository (Mongoose)
+    ↓
+MongoDB
+```
+
+**Fonctionnalités Développées :**
+- ✅ Authentification complète (Register, Login, Me)
+- ✅ Système de rôles à 3 niveaux (USER, MODERATOR, ADMIN)
+- ✅ Guards personnalisés (@UseGuards + @Roles decorator)
+- ✅ Protection des routes GraphQL avec JWT
+- ✅ CRUD Books avec permissions par rôle
+- ✅ GraphQL Playground pour tests
+- ✅ ConfigService pour variables d'environnement
+- ✅ Docker Compose (MongoDB + Mongo Express)
+
+**Documentation & Best Practices :**
+- 📘 README complet avec badges et exemples
+- 📝 CONTRIBUTING.md (guide de contribution)
+- 🚀 DEPLOYMENT.md (6+ plateformes cloud)
+- 🐳 Docker ready (développement et production)
+- 📦 Support npm, pnpm, yarn
+- ⚙️ .env.example bien documenté
+- 🔐 Checklist de sécurité complète
+
+**Points d'Apprentissage Clés :**
+- Différence entre `@ObjectType()` (output) et `@InputType()` (input)
+- Utilisation de `@Field()` pour exposer les champs GraphQL
+- Gestion JWT avec `ConfigService` (éviter les erreurs de configuration)
+- Architecture modulaire NestJS (Auth, User, Book)
+- Debugging méthodique (résolution problème JWT_SECRET)
+
+**Compétences Acquises :**
+- Architecture complète backend moderne
+- Authentification + Authorization (RBAC)
+- GraphQL API design et best practices
+- Documentation professionnelle
+- Collaboration AI pour debugging et best practices
+- Docker pour environnement de développement
+
+**Particularité :** Premier projet "production-ready" avec documentation complète, guides de déploiement, et bonnes pratiques professionnelles. Conçu comme un boilerplate réutilisable.
+
+**Durée :** 3-4 semaines | **Statut :** ✅ Complet, documenté, prêt pour portfolio
+
+---
 
 ### 🔐 Système d'Authentification JWT
 
@@ -172,17 +246,18 @@ deleteBook(id: String!): Boolean!
 ├─ Projet GraphQL Books API
 └─ Maîtrise TypeScript
 
-2024-2025 Q1 - APPROFONDISSEMENT 🔄
+2024-2025 Q1 - APPROFONDISSEMENT ✅
+├─ Projet Auth Starter complet (JWT + GraphQL + RBAC)
+├─ Documentation professionnelle
+├─ Docker & DevOps basics
+└─ Architecture production-ready
+
+2025 Q2 - PROFESSIONNALISATION 🔄
 ├─ Relations & DataLoader (GraphQL)
 ├─ Pagination & filtres avancés
 ├─ Tests (Jest, e2e)
-└─ 2-3 projets portfolio
-
-2025 Q2 - PROFESSIONNALISATION 📝
-├─ Microservices architecture
-├─ Cloud deployment (AWS/GCP)
-├─ CI/CD pipelines
-└─ Recherche premier poste
+├─ 2-3 projets portfolio additionnels
+└─ Contributions open-source
 
 2025 Q3+ - OBJECTIF 🎯
 └─ Backend Developer @ Tech Company
@@ -192,11 +267,11 @@ deleteBook(id: String!): Boolean!
 
 | Métrique | Valeur | Notes |
 |----------|--------|-------|
-| **Projets complétés** | 2 | JWT Auth + GraphQL API |
-| **Lignes de code** | ~5000+ | TypeScript/NestJS |
-| **Technologies maîtrisées** | 6 | NestJS, TS, MongoDB, GraphQL, JWT, Git |
+| **Projets complétés** | 3 | JWT Auth + GraphQL API + Auth Starter |
+| **Lignes de code** | ~10000+ | TypeScript/NestJS |
+| **Technologies maîtrisées** | 8 | NestJS, TS, MongoDB, GraphQL, JWT, Git, Docker, RBAC |
 | **Documentation créée** | 100% | Tous projets documentés |
-| **Heures d'apprentissage** | 200+ | Tutos, docs, pratique |
+| **Heures d'apprentissage** | 300+ | Tutos, docs, pratique |
 | **Collaboration AI** | Quotidienne | Claude pour guidance |
 
 ---
@@ -262,11 +337,12 @@ class LearningMethod {
 
 ### Court Terme (3-6 mois)
 
+- [x] Maîtriser authentification JWT + GraphQL + RBAC
+- [x] Créer un projet production-ready avec docs complètes
+- [ ] Implémenter tests (Jest) sur auth-starter
 - [ ] Maîtriser relations GraphQL avec DataLoader
 - [ ] Implémenter pagination et filtres avancés
-- [ ] Créer 3-4 projets portfolio solides
 - [ ] Contribuer à l'open-source
-- [ ] Améliorer couverture tests
 
 ### Moyen Terme (6-12 mois)
 
@@ -293,19 +369,21 @@ class LearningMethod {
 | **🎯 Expérience Terrain** | Années en tant que Webmaster |
 | **📚 Apprenant Structuré** | Méthodologie claire, projets concrets |
 | **💡 Motivation Prouvée** | Reconversion assumée avec résultats |
-| **📖 Documentation** | Code propre, README complets |
+| **📖 Documentation** | Code propre, README complets, guides |
 | **🤖 AI-Assisted Learning** | Utilisation Claude pour best practices |
 | **🌱 Growth Mindset** | Humble mais déterminé |
+| **🏗️ Production-Ready** | Projets avec tests, Docker, déploiement |
 
 ### Proposition de Valeur
 
 ```typescript
 interface MyValue {
   experience: "Webmaster confirmé qui comprend le cycle projet complet";
-  technical: "Maîtrise progressive stack moderne (NestJS, GraphQL, MongoDB)";
+  technical: "Maîtrise stack moderne (NestJS, GraphQL, MongoDB, RBAC)";
   learning: "Apprentissage rapide et structuré avec projets à l'appui";
   mindset: "Junior en backend mais pas débutant en tech";
   motivation: "Reconversion choisie avec investissement temps/énergie massif";
+  quality: "Documentation professionnelle et bonnes pratiques";
 }
 ```
 
