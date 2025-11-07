@@ -109,7 +109,7 @@ Resolver → Service → Repository → MongoDB
 **Durée :** 3-4 semaines | **Statut :** ✅ Production-ready
 
 <details>
-<summary>🔐 Système d'Authentification JWT (Projet 2)</summary>
+<summary>**🔐 Système d'Authentification JWT (Projet 2)**</summary>
 
 ### Système d'Authentification JWT
 
@@ -158,7 +158,7 @@ MongoDB
 </details>
 
 <details>
-<summary>📚 API GraphQL Books Management (Projet 3)</summary>
+<summary>**📚 API GraphQL Books Management (Projet 3)**</summary>
 
 ### API GraphQL Books Management
 
